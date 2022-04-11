@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Jack Weir - S1830098 -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/currentIncidentsButton"
+        android:title="Current Incidents"
+        android:icon="@drawable/ic_baseline_warning_24"
+        android:enabled="true"/>
+    <item
+        android:id="@+id/currentRoadworksButton"
+        android:title="Current Roadworks"
+        android:icon="@drawable/ic_baseline_build_24"
+        android:enabled="true"/>
+    <item
+        android:id="@+id/plannedRoadworksButton"
+        android:title="Planned Roadworks"
+        android:icon="@drawable/ic_baseline_query_builder_24"
+        android:enabled="true"/>
+</menu>

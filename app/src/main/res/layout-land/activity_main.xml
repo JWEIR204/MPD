@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Jack Weir - S1830098 -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="25dp"
+            android:textSize="26dp"
+            android:text="Select a button"
+            android:textStyle="bold"
+            />
+
+        <androidx.appcompat.widget.SearchView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/roadSearch"
+            />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/currentIncidentsButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Current Incidents" />
+
+        <Button
+            android:id="@+id/currentRoadworksButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Current Roadworks" />
+
+        <Button
+            android:id="@+id/plannedRoadworksButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Planned Roadworks" />
+
+        <TextView
+            android:id="@+id/roadData"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp" />
+
+
+
+    </LinearLayout>
+
+</ScrollView>
